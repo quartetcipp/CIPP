@@ -2,7 +2,7 @@ name: Sync To UAT
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch: # on button click
 
 jobs:
