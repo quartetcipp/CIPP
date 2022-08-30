@@ -15,5 +15,5 @@ jobs:
       - uses: connor-baer/action-sync-branch@main
         with:
           branch: UAT
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUBACTIONTOKEN }}
           force: true
