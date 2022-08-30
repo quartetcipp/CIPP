@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - UAT
+  workflow_run:
+    workflows: ["Sync To UAT"]
+    types: [completed]
+    branches:
+      - UAT
+  workflow_dispatch: # on button click
 
 jobs:
   sync-branches:
