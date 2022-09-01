@@ -5,6 +5,17 @@ on:
       - UAT
 
 jobs:
+  sync-master:
+    runs-on: ubuntu-latest
+    name: Syncing To Master
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+      - uses: connor-baer/action-sync-branch@main
+        with:
+          branch: main
+          token: ${{secrets.GITHUB_TOKEN}}
+          force: true
   sync-branches:
     runs-on: ubuntu-latest
     name: Syncing branches
