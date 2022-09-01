@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@master
       - uses: connor-baer/action-sync-branch@main
         with:
-          branch: master
+          branch: main
           token: ${{secrets.GITHUB_TOKEN}}
           force: true
   sync-branches:
