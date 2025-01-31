@@ -457,22 +457,6 @@
   },
   {
     "ExtensionData": {},
-    "Description": "Do not use - not intended for general use.",
-    "IsEnabled": true,
-    "IsSystem": true,
-    "Name": "Partner Tier1 Support",
-    "ObjectId": "4ba39ca4-527c-499a-b93d-d9b492c50246"
-  },
-  {
-    "ExtensionData": {},
-    "Description": "Do not use - not intended for general use.",
-    "IsEnabled": true,
-    "IsSystem": true,
-    "Name": "Partner Tier2 Support",
-    "ObjectId": "e00e864a-17c5-4a4b-9c06-f5b95a8d5bd8"
-  },
-  {
-    "ExtensionData": {},
     "Description": "Can reset passwords for non-administrators and Password Administrators.",
     "IsEnabled": true,
     "IsSystem": true,
@@ -670,6 +654,22 @@
     "IsSystem": true,
     "Name": "Virtual Visits Administrator",
     "ObjectId": "e300d9e7-4a2b-4295-9eff-f1c78b36cc98"
+  },
+  {
+    "ExtensionData": {},
+    "Description": "Manage and configure all aspects of Microsoft Viva Goals.",
+    "IsEnabled": true,
+    "IsSystem": true,
+    "Name": "Viva Goals Administrator",
+    "ObjectId": "92b086b3-e367-4ef2-b869-1de128fb986e"
+  },
+  {
+    "ExtensionData": {},
+    "Description": "Can manage all settings for Microsoft Viva Pulse app.",
+    "IsEnabled": true,
+    "IsSystem": true,
+    "Name": "Viva Pulse Administrator",
+    "ObjectId": "87761b17-1ed2-4af3-9acd-92a150038160"
   },
   {
     "ExtensionData": {},
